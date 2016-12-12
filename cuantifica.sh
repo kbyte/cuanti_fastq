@@ -30,8 +30,6 @@ if test -e $archivo
   exit 0
 fi
 
-
-
 if test -z $archivo
  then
   echo "El script no puede ser ejecutado. Verifica la siguiente información:"
@@ -64,7 +62,6 @@ then
   echo " "
   exit 0
 fi
-
 
 if [ $ext = "fastq" ]
  then
